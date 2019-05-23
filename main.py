@@ -1,5 +1,5 @@
 size = 10
-file = open('1000.txt')
+file = open( '1000.txt' )
 i = 0
 while True:
     chunk = file.read( size )
@@ -8,4 +8,4 @@ while True:
     i += 1
     if 1 < i and i % size == 1:
         print
-    print(chunk)
+    print( chunk )
